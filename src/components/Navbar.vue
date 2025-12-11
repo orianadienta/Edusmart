@@ -71,6 +71,7 @@ const navigation = [
   { name: 'Pendaftaran', href: '/daftar' },
   { name: 'Program', href: '/program' },
   { name: 'FAQ', href: '/faq' },
+  { name: 'Tentang Saya', href: '/me' },
 ]
 
 const mobileMenuOpen = ref(false)

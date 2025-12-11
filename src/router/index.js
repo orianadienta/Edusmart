@@ -4,6 +4,7 @@ import AboutPage from '../views/AboutView.vue'
 import Program from '@/views/ListProgramView.vue'
 import Faq from '../views/FaqView.vue'
 import Daftar from '../views/DaftarView.vue'
+import AboutMe from '../views/AboutMeView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomePage },
@@ -17,6 +18,7 @@ const routes = [
 
   { path: '/faq', component: Faq },
   { path: '/daftar', component: Daftar },
+  { path: '/me', component: AboutMe },
 ]
 
 const router = createRouter({
